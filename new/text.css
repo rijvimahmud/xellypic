@@ -1,0 +1,120 @@
+.d1 {
+  position: relative;
+  display: inline-block;
+}
+
+.d2{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.d1:hover .d2 {
+  display: block;
+}
+
+
+.d3{
+  position: relative;
+  display: inline-block;
+}
+.d4{
+  border: none;
+  padding: 16px;
+  color: white;
+  background-color: green;
+}
+.d5{
+
+  position: absolute;
+  z-index: 1;
+
+  min-width: 160px;
+  background-color:  #f9f9f9;
+  display: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+
+}
+.d5 a{
+  display: block;
+  padding: 8px 16px;
+  color: black;
+  text-decoration: none;
+
+}
+.d3:hover .d5{
+ display: block;
+}
+.d3:hover .d4{
+  background-color:cyan;
+  color: black;
+}
+.d5 a:hover{
+  background-color: black;
+  color: white;
+}
+.d7{
+  background-color: #4CAF50;
+  padding: 16px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  border:none;
+
+}
+.d6{
+  position: relative;
+  display: inline-block;
+}
+.d8{
+  position: absolute;
+  display: none;
+  z-index: 1;
+  background-color:  #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+
+}
+.d8 a {
+  padding:  12px 16px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.d6:hover .d8{
+  display: block;
+}
+.d8 a:hover {
+  background-color:  #f1f1f1;
+
+}
+.d6:hover .d7{
+  background-color: #3e8e41;
+}
+.d9{
+  position: relative;
+  display: inline-block;
+}
+.d10{
+background-color: white;
+display: none;
+position: absolute;
+z-index: 1;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+min-width: 160px;
+}
+.d9:hover .d10{
+  display: block;
+}
+.d11{
+
+  padding: 15px;
+  text-align: center;
+
+}

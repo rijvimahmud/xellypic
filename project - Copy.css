@@ -1,0 +1,131 @@
+.body {
+  margin: 0;
+}
+
+
+/*css header start*/
+.header {
+  overflow: hidden;
+  width: 100%;
+  background-color: black;
+}
+
+.logo {
+  float: left;
+  overflow: hidden;
+  width: 30%;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.navigation {
+  float: left;
+  width: 70%;
+  padding: 15px;
+}
+
+.logo img {
+  width: 100%;
+  padding: 5px;
+  
+}
+
+.navigation ul {
+  margin: 57px 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  font-size: 25px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+  
+
+
+/*css header end*/
+/*css main start*/
+* {
+  box-sizing: border-box;
+
+}
+
+.main {
+  overflow: hidden;
+  background-color: #ecf0f1;
+}
+
+.content {
+  float: left;
+  width: 70%;
+  padding: 15px;
+}
+
+.cone {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.ctwo {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.sidebar {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/*css main end*/
+/*css footer start*/
+.footer {
+  overflow: hidden;
+  width: 100%;
+  background-color: black;
+}
+
+.one {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  color: white;
+  
+}
+
+.two {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  color: white;
+  
+}
+
+.three {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  color: white;
+}
+  
+
+
+/*css footer end*/
+/*copyright css*/
+.copy {
+  padding: 15px;
+  text-align: center;
+  background-color: #95a5a6;
+}
+
+/*copyright end*/

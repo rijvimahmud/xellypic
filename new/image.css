@@ -1,0 +1,22 @@
+.d8 {
+    margin: 5px;
+    float: left;
+    border: 1px solid red;
+    width: 200px;
+}
+
+.d8 img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.d9 {
+    padding: 20px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.d8:hover {
+    border: 1px solid black;
+}
