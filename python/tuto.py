@@ -101,6 +101,10 @@ x=3
 y=6
 z=(y/x)
 print(int(z))
+a=10
+b=3
+c= a%b
+print(c)
 #Command-line String InputPython allows for command line input.That means we are able to ask the user for input.The following example asks for the user's name, then, by using the input() method, the program prints the name to the screen:
 print('enter your name')
 x=input()
