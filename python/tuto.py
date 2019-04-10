@@ -113,6 +113,13 @@ a=9
 b=2
 c=a//b
 print(c)
+#Python Assignment Operators
+x = 4
+x += 3
+print(x)
+x=4
+x-=5
+print(x)
 #Command-line String InputPython allows for command line input.That means we are able to ask the user for input.The following example asks for the user's name, then, by using the input() method, the program prints the name to the screen:
 print('enter your name')
 x=input()
