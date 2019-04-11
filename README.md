@@ -1,1 +1,1 @@
-This is my practice pad. I do my practice here. Thank you.
+This is my Practice Pad. I do my practice here. Thank you. 
