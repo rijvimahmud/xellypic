@@ -120,6 +120,56 @@ print(x)
 x=4
 x-=5
 print(x)
+x=3
+x*=3
+print(x)
+x=3
+x/=3
+print (x)
+x=5
+x%=3
+print(x)
+x=10
+x//=3
+print(x)
+x=3
+x**=3
+print (x)
+#Python Comparison Operators
+x=3
+y=4
+print (x == y)
+
+x=3
+y=4
+print ( x != y)
+
+x=4
+y=2
+print (x > y)
+
+x=3
+y=2
+print (x < y)
+
+x=3
+y=3
+print (x >= y)
+
+x=4
+y=3
+print (x <= y)
+
+#Python Logical Operators
+x=4
+print (x >3 and x<5)
+
+x=5
+print (x >10 or x<10)
+
+x=4
+print (not(x > 3 and x<5))
+
 
 #Command-line String InputPython allows for command line input.That means we are able to ask the user for input.The following example asks for the user's name, then, by using the input() method, the program prints the name to the screen:
 print('enter your name')
