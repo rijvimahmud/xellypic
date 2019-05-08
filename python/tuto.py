@@ -582,3 +582,84 @@ c=6
 d=5
 if a < b or c>d:
     print ("at least one of the conditions is true")
+    
+#The while Loop
+
+i=1
+while (i<6):
+    print(i)
+    i+=1
+    
+#The break Statement
+i=1
+while i<6:
+    print(i)
+    if i==3:
+        break
+    i+=1
+    
+
+#The continue Statement
+i=0
+while i<6:
+    i+=1
+    if i ==3:
+        continue
+    print(i)
+    
+#Python For Loops
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+    
+#Looping Through a String
+for x in "banana":
+    print(x)
+    
+#The break Statement
+    
+fruits=["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+    if x=="banana":
+        break
+
+#Exit the loop when x is "banana", but this time the break comes before the print:
+fruits=["apple", "banana", "cherry"]
+for x in fruits:
+    if x== "banana":
+        break
+    print(x)
+    
+#The continue Statement
+fruits=["apple", "banana", "cherry", "orange"]
+for x in fruits:
+    if x=="banana":
+        continue
+    print(x)
+    
+#The range() Function
+for x in range(6):
+    print(x)
+    
+#Using the start parameter:
+for x in range (2, 6):
+    print (x)
+    
+#Increment the sequence with 3 (default is 1):
+for x in range (2, 30, 3):
+    print(x)
+
+#Else in For Loop
+for x in range (6):
+    print(x)
+else:
+    print("finally finished")
+    
+ 
+#Nested Loops
+adj=["red" , "big", "tasty"]
+fru=["apple", "banana", "cherry"]
+for x in adj:
+    for y in fru:
+        print(x,y)
