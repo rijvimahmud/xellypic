@@ -421,3 +421,164 @@ thisdict = {
 for x, y in thisdict.items():
     print (x, y)
     
+    
+#Check if Key Exists
+    
+    thisdict = {
+        "brand" : "ford",
+        "model" : "mustang",
+        "year"  : 1964
+        }
+    if "model" in thisdict:
+        print ("yes, 'model' is one of the keys in thisdict")
+        
+
+#Dictionary Length
+    
+thisdict = {
+    "brand" : "forg",
+    "model" : "mustang",
+    "year"  : 1964
+    }
+print (len(thisdict))
+
+#Adding Items
+
+thisdict = {
+    "brand" : "ford",
+    "model" : "mustang",
+    "year"  : 1964
+    }
+thisdict["color"]= "red"
+print (thisdict)
+
+#Removing Items
+
+thisdict = {
+    "brand" : "ford",
+    "model" : "mustang",
+    "year"  : 1964
+    }
+thisdict.pop("year")
+print (thisdict)
+
+
+thisdict = {
+    "brand" : "ford",
+    "model" : "mustang",
+    "year"  : 1964
+    }
+thisdict.popitem()
+print (thisdict)
+
+thisdict = {
+    "brand" : "ford",
+    "model" : "mustang",
+    "year"  : 1964
+    }
+del thisdict ["year"]
+print (thisdict)
+
+thisdict = {
+    "brand" : "ford",
+    "model" : "mustang",
+    "year"  : 1964
+    }
+thisdict.clear()
+print (thisdict)
+
+
+#Copy a Dictionary
+thisdict = {
+    "brand" : "ford",
+    "model" : "mustang",
+    "year"  : 1964
+    }
+mydict = thisdict.copy()
+print (mydict)
+
+thisdict = {
+    "brand" : "ford",
+    "model" : "mustang",
+    "year"  : 1964
+    }
+mydict = dict (thisdict)
+print (mydict)
+
+#The dict() Constructor
+
+thisdict = dict (brand="ford", model="mustang", year= 1964)
+print (thisdict)
+
+#Python Conditions and If statements
+a=300
+b=50
+if a > b:
+    print ("a is greater than b")
+    
+#Indentation
+    
+#a=33
+#b=33
+#if b>a:
+#print ("b is greater than a")
+    
+#Elif
+a=33
+b=33
+if b > a :
+    print ("b is greater than a ")
+elif a==b:
+    print ("b and a are equal")
+    
+#Else
+a=300
+b=400
+
+if b < a :
+    print("b is less than a ")
+elif b==a :
+    print ("b and a is equal")
+else :
+    print ("b is greater than a")
+    
+    
+a=344
+b=300
+if b > a :
+    print("b is greater than a")
+else :
+    print("a is greater than b")
+    
+#Short Hand If
+a=300
+b=200
+if a > b : print("a is greater than b")
+
+#Short Hand If ... Else
+
+s=5
+t=6
+print ("s is greater than t") if s > b else print("t is greater than s")
+
+a=3
+b=3
+print("A") if a > b else print ("=") if a==b  else print ("B")
+
+
+#And
+
+a=3
+b=4
+c=5
+d=6
+if a<b and c<d :
+    print ("both conditions are true")
+    
+#Or
+a=4
+b=3
+c=6
+d=5
+if a < b or c>d:
+    print ("at least one of the conditions is true")
