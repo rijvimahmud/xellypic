@@ -663,3 +663,16 @@ fru=["apple", "banana", "cherry"]
 for x in adj:
     for y in fru:
         print(x,y)
+        
+        
+#Creating a Function, Calling a Function
+def function():
+    print("hello python")
+function()
+
+#Parameters
+def fname(lname):
+    print(lname+" hi")
+fname("hello")
+fname("python")
+fname("programming")
