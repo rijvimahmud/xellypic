@@ -676,3 +676,40 @@ def fname(lname):
 fname("hello")
 fname("python")
 fname("programming")
+
+#Default Parameter Value
+
+def my_function(country=" redgreen"):
+    print("i am from"+country)
+my_function(" sweden")
+my_function("india")
+my_function("bangladesh")
+my_function()
+
+##Passing a List as a Parameter
+def good(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+good(fruits)
+
+
+#Return Values
+def my_function(x):
+    return 3*x
+print(my_function(3))
+print (my_function(4))
+
+#Recursion
+def tri(k):
+    if (k>0):
+        result = k+tri(k-1)
+        print(result)
+    else:
+        result=0
+    return result
+print("Recursion")
+tri(5)
+    
