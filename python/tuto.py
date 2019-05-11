@@ -712,4 +712,16 @@ def tri(k):
     return result
 print("Recursion")
 tri(5)
+
+#Python Lambda
+x = lambda a: a+10
+print (x(10))
+
+#Lambda functions can take any number of arguments:
+x = lambda a,b : a*b
+print(x(5, 6))
+
+#A lambda function that sums argument a, b, and c and print the result:
+x = lambda a,b,c : a+b+c
+print(x(5,6,6))
     
