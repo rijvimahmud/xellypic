@@ -725,3 +725,41 @@ print(x(5, 6))
 x = lambda a,b,c : a+b+c
 print(x(5,6,6))
     
+#Python Arrays
+cars = ["ford", "volvo", "bmw"]
+print (cars)
+
+#Access the Elements of an Array
+cars = ["ford", "volvo" , "bmw"]
+x=cars[1]
+print (x)
+
+#Modify the value of the first array item:
+cars=["ford", "volvo", "ford"]
+cars[0]="toyota"
+print(cars)
+
+#The Length of an Array
+cars=["ford", "volvo", "bmw"]
+x=len(cars)
+print(x)
+
+#Looping Array Elements
+cars=["ford", "volvo", "bmw"]
+for x in cars:
+    print(x)
+    
+#Adding Array Elements
+cars = ["ford", "volvo", "bmw"]
+cars.append("honda")
+print(cars)
+
+#Removing Array Elements
+cars = ["ford", "volvo", "bmw"]
+cars.pop(1)
+print(cars)
+
+#You can also use the remove() method to remove an element from the array.
+cars =["ford", "volvo" , "bmw"]
+cars.remove("bmw")
+print(cars)
