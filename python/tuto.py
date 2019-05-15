@@ -763,3 +763,16 @@ print(cars)
 cars =["ford", "volvo" , "bmw"]
 cars.remove("bmw")
 print(cars)
+
+#Create a Class
+class myclass:
+    x=5
+print (myclass)
+
+#Create Object
+class cla:
+    x=5
+p1=cla()
+print(p1.x)
+
+#The __init__() Function
