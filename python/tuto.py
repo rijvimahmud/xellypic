@@ -1,7 +1,9 @@
-print(
-    "hello world"
-)
+print ("hello world")
+
+
+
 if 5>2:
+    
   print("five is greater than two")
   """this is a docstrings"""
   print('hello world')
@@ -10,7 +12,7 @@ if 5>2:
   print("hello world")
   if 5>2:
       print("five is greater than two")
-      
+
 x=5
 y="Cezanne_15"
 print(x)
@@ -31,7 +33,7 @@ y=10
 print(x+y)
 print("hello")
 if 5 > 3:
-    print("five is grater than three") 
+    print("five is grater than three")
     if 5>2:
         print("five is grater than two")
         x=1
@@ -180,7 +182,7 @@ print (thislist)
 
 thislist = ["apple", "banana", "cherry"]
 print (thislist[1])
-                        
+
 #Change Item Value
 thislist = ["apple", "banana", "cherry"]
 thislist[1]= "coconut"
@@ -190,7 +192,7 @@ print (thislist)
 thislist = ["apple", "banana", "cherry"]
 for x in thislist:
  print (x)
- 
+
  #Check if Item Exists
  thislist = ["apple", "banana", "cherry"]
  if "apple" in thislist:
@@ -199,12 +201,12 @@ for x in thislist:
 #List Length
      thislist = ["apple", "banana", "cherry"]
      print(len(thislist))
-     
+
 #Add Items
      thislist = ["apple", "banana", "cherry"]
      thislist.append ("orange")
      print (thislist)
-     
+
 #To add an item at the specified index, use the insert() method:
      thislist= ["apple", "banana", "cherry"]
      thislist.insert (1, "orange")
@@ -213,32 +215,32 @@ for x in thislist:
      thislist = ["apple", "banana", "cherry"]
      thislist.remove ("banana")
      print (thislist)
-     
+
      thislist= ["apple", "banana", "cherry"]
      thislist.pop()
      print (thislist)
-     
+
      thislist = ["apple", "banana", "cherry"]
      del thislist [1]
      print (thislist)
-     
 
-     
+
+
      thislist = ["apple", "banana", "cherry"]
      thislist.clear()
      print (thislist)
-     
+
 #copy a list
-     
+
      thislist = ["apple", "banana", "cherry"]
      mylist = thislist.copy()
      print (mylist)
-     
-          
+
+
      thislist = ["apple", "banana", "cherry"]
      mylist = list (thislist)
      print (mylist)
-     
+
 #The list() Constructor
 thislist = (("apple", "banana", "cherry"))
 print (thislist)
@@ -246,7 +248,7 @@ print (thislist)
 #Tuple
 
 thistuple = ("apple", "banana", "cherry")
-print (thistuple) 
+print (thistuple)
 
 #Access Tuple Items
 thistuple = ("apple", "banana", "cherry")
@@ -261,19 +263,19 @@ print (thistuple[0])
 thistuple = ("apple", "banana", "cherry")
 for x in thistuple:
     print(x)
-    
-    
+
+
 #Check if Item Exists
-    
+
     thistuple = ("apple", "banana", "cherry")
     if "apple" in thistuple:
         print ("yes, 'apple' is in this fruit list")
 
 #Tuple Length
-        
+
     thistuple = ("apple", "banana", "cherry")
     print (len(thistuple))
-    
+
 #Remove Items
 #Note: You cannot remove items in a tuple.
 
@@ -281,7 +283,7 @@ for x in thistuple:
    # thistuple = ("apple", "banana", "cherry")
    # del thistuple
     #print (thistuple)#
-   
+
 #The tuple() Constructor
 thistuple= tuple(("apple", "banana", "cherry"))
 
@@ -297,7 +299,7 @@ print (thisset)
 thisset = {"apple", "banana", "cherry"}
 for x in thisset:
     print(x)
-    
+
 thisset = {"apple", "banana", "cherry"}
 print ("banana" in thisset)
 
@@ -357,7 +359,7 @@ thisdict = {
     "brand" : "porsche",
     "model" : "mustang",
     "year" : 1964
-    
+
     }
 x= thisdict["model"]
 print (x)
@@ -366,7 +368,7 @@ thisdict = {
     "brand" : "porsche",
     "model" : "mustang",
     "year" : 1964
-    
+
     }
 x= thisdict.get("model")
 print (x)
@@ -376,9 +378,9 @@ thisdict = {
     "brand" : "ford",
     "model" : "mustang",
     "year"  : 1964
-    
-    
-    
+
+
+
     }
 thisdict["year"] = 2018
 print (thisdict)
@@ -392,7 +394,7 @@ thisdict = {
     }
 for x in thisdict:
     print (x)
-    
+
 
 thisdict = {
     "brand" : "ford",
@@ -401,8 +403,8 @@ thisdict = {
     }
 for x in thisdict:
     print (thisdict[x])
-    
-    
+
+
 thisdict = {
     "brand" : "ford",
     "model" : "mustang",
@@ -410,8 +412,8 @@ thisdict = {
     }
 for x in thisdict.values():
     print (x)
-    
-    
+
+
 thisdict = {
     "brand" : "ford",
     "model" : "mustang",
@@ -420,10 +422,10 @@ thisdict = {
 
 for x, y in thisdict.items():
     print (x, y)
-    
-    
+
+
 #Check if Key Exists
-    
+
     thisdict = {
         "brand" : "ford",
         "model" : "mustang",
@@ -431,10 +433,10 @@ for x, y in thisdict.items():
         }
     if "model" in thisdict:
         print ("yes, 'model' is one of the keys in thisdict")
-        
+
 
 #Dictionary Length
-    
+
 thisdict = {
     "brand" : "forg",
     "model" : "mustang",
@@ -515,14 +517,14 @@ a=300
 b=50
 if a > b:
     print ("a is greater than b")
-    
+
 #Indentation
-    
+
 #a=33
 #b=33
 #if b>a:
 #print ("b is greater than a")
-    
+
 #Elif
 a=33
 b=33
@@ -530,7 +532,7 @@ if b > a :
     print ("b is greater than a ")
 elif a==b:
     print ("b and a are equal")
-    
+
 #Else
 a=300
 b=400
@@ -541,15 +543,15 @@ elif b==a :
     print ("b and a is equal")
 else :
     print ("b is greater than a")
-    
-    
+
+
 a=344
 b=300
 if b > a :
     print("b is greater than a")
 else :
     print("a is greater than b")
-    
+
 #Short Hand If
 a=300
 b=200
@@ -574,7 +576,7 @@ c=5
 d=6
 if a<b and c<d :
     print ("both conditions are true")
-    
+
 #Or
 a=4
 b=3
@@ -582,14 +584,14 @@ c=6
 d=5
 if a < b or c>d:
     print ("at least one of the conditions is true")
-    
+
 #The while Loop
 
 i=1
 while (i<6):
     print(i)
     i+=1
-    
+
 #The break Statement
 i=1
 while i<6:
@@ -597,7 +599,7 @@ while i<6:
     if i==3:
         break
     i+=1
-    
+
 
 #The continue Statement
 i=0
@@ -606,18 +608,18 @@ while i<6:
     if i ==3:
         continue
     print(i)
-    
+
 #Python For Loops
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
     print(x)
-    
+
 #Looping Through a String
 for x in "banana":
     print(x)
-    
+
 #The break Statement
-    
+
 fruits=["apple", "banana", "cherry"]
 for x in fruits:
     print(x)
@@ -630,22 +632,22 @@ for x in fruits:
     if x== "banana":
         break
     print(x)
-    
+
 #The continue Statement
 fruits=["apple", "banana", "cherry", "orange"]
 for x in fruits:
     if x=="banana":
         continue
     print(x)
-    
+
 #The range() Function
 for x in range(6):
     print(x)
-    
+
 #Using the start parameter:
 for x in range (2, 6):
     print (x)
-    
+
 #Increment the sequence with 3 (default is 1):
 for x in range (2, 30, 3):
     print(x)
@@ -655,16 +657,16 @@ for x in range (6):
     print(x)
 else:
     print("finally finished")
-    
- 
+
+
 #Nested Loops
 adj=["red" , "big", "tasty"]
 fru=["apple", "banana", "cherry"]
 for x in adj:
     for y in fru:
         print(x,y)
-        
-        
+
+
 #Creating a Function, Calling a Function
 def function():
     print("hello python")
@@ -724,7 +726,7 @@ print(x(5, 6))
 #A lambda function that sums argument a, b, and c and print the result:
 x = lambda a,b,c : a+b+c
 print(x(5,6,6))
-    
+
 #Python Arrays
 cars = ["ford", "volvo", "bmw"]
 print (cars)
@@ -748,7 +750,7 @@ print(x)
 cars=["ford", "volvo", "bmw"]
 for x in cars:
     print(x)
-    
+
 #Adding Array Elements
 cars = ["ford", "volvo", "bmw"]
 cars.append("honda")
@@ -776,3 +778,5 @@ p1=cla()
 print(p1.x)
 
 #The __init__() Function
+
+        
