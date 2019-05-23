@@ -791,7 +791,64 @@ print(p1.age)
 class person(object):
     """docstring for person"""
     def __init__(self, name, age):
-        
+        self.name =name
+        self.age = age
+
+    def myfunc(self):
+        print("hello my name is " + self.name)
+
+p1=person ("john" ,36)
+p1.myfunc()
+
+#The self Parameter
+
+class person:
+    def __init__(mysillyobject, name, age):
+        mysillyobject.name=name
+        mysillyobject.age=age
+
+    def myfun(abc):
+        print("hello this is " + abc.name)
+
+p1=person("john", 36)
+p1.myfun()
+
+#Modify Object Properties
+class person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def myfu(self):
+        print("hello i am " + self.name)
+p1=person("john", 36)
+p1.age=40
+print(p1.age)
+
+'''Delete Object Properties
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+del p1.age
+print(p1.age)'''
+
+'''Delete Objects
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+del p1
+print(p1)'''
         
 
     
