@@ -3,7 +3,7 @@ print ("hello world")
 
 
 if 5>2:
-    
+
   print("five is greater than two")
   """this is a docstrings"""
   print('hello world')
@@ -778,5 +778,20 @@ p1=cla()
 print(p1.x)
 
 #The __init__() Function
+class person:
+    def __init__(self, name, age):
+        self.name=name
+        self.age=age
+p1 = person("john", 36)
 
+print(p1.name)
+print(p1.age)
+
+#Object Methods
+class person(object):
+    """docstring for person"""
+    def __init__(self, name, age):
         
+        
+
+    
