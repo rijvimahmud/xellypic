@@ -9,6 +9,8 @@
   <script src="main.js"></script>
 </head>
 <body>
-  
+  <?php
+  echo "my first php script";
+  ?>
 </body>
 </html>
